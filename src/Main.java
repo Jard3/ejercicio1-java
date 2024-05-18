@@ -21,6 +21,7 @@ public class Main {
         else {
             System.out.println(nume2 + " Es el numero mayor");
         }*/
+        /*
         int num;
         System.out.println("Ingrese un numero: ");
         num=teclado.nextInt();
@@ -28,6 +29,15 @@ public class Main {
             System.out.println("El numero es par");
         }else {
             System.out.println("El numero es impar");
+        }*/
+        int factorial =0, num, multiplicacion;
+        System.out.println("Ingrese un numero: ");
+        num=teclado.nextInt();
+        factorial=num;
+        for (int i = 1; i < num; ++i) {
+            factorial=factorial*i;
+
+            System.out.println(factorial);
         }
     }
     }
