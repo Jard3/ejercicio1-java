@@ -30,6 +30,7 @@ public class Main {
         }else {
             System.out.println("El numero es impar");
         }*/
+        /*
         int factorial =0, num, multiplicacion;
         System.out.println("Ingrese un numero: ");
         num=teclado.nextInt();
@@ -38,6 +39,14 @@ public class Main {
             factorial=factorial*i;
 
             System.out.println(factorial);
+        }*/
+        int numero;
+        System.out.println("Ingrese un numero mayor que 10 y menor que 30");
+        numero=teclado.nextInt();
+        while(numero>30||numero<10){System.out.println("Ingrese un numero valido");
+        numero=teclado.nextInt();}
+        for(int i=1;i<=numero;i+=2){
+            System.out.println(i);
         }
     }
     }
