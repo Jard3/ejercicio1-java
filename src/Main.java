@@ -9,7 +9,7 @@ public class Main {
             if(edad>18){
                 System.out.println("Eres mayor de edad");
             }else{System.out.println("Eres menor de edad");}*/
-        int num1 ,nume2;
+        /*int num1 ,nume2;
         System.out.println("Ingrese el primer numero");
         num1=teclado.nextInt();
         System.out.println("Ingrese el segundo numero");
@@ -20,6 +20,14 @@ public class Main {
         }
         else {
             System.out.println(nume2 + " Es el numero mayor");
+        }*/
+        int num;
+        System.out.println("Ingrese un numero: ");
+        num=teclado.nextInt();
+        if (num%2==0){
+            System.out.println("El numero es par");
+        }else {
+            System.out.println("El numero es impar");
         }
     }
     }
