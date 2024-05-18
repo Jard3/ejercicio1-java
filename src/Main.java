@@ -40,6 +40,7 @@ public class Main {
 
             System.out.println(factorial);
         }*/
+        /*
         int numero;
         System.out.println("Ingrese un numero mayor que 10 y menor que 30");
         numero=teclado.nextInt();
@@ -47,6 +48,16 @@ public class Main {
         numero=teclado.nextInt();}
         for(int i=1;i<=numero;i+=2){
             System.out.println(i);
+        }*/
+
+        int k =1, numer;
+        System.out.println("Ingrese un numero mayor que 10 y menor que 30");
+        numer=teclado.nextInt();
+        while(numer>30||numer<10){System.out.println("Ingrese un numero valido");
+            numer=teclado.nextInt();}
+        while(k<numer){
+            k+=2;
+                    System.out.println(k);
         }
     }
     }
