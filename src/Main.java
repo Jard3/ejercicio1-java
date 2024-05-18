@@ -49,7 +49,7 @@ public class Main {
         for(int i=1;i<=numero;i+=2){
             System.out.println(i);
         }*/
-
+/*
         int k =1, numer;
         System.out.println("Ingrese un numero mayor que 10 y menor que 30");
         numer=teclado.nextInt();
@@ -58,6 +58,28 @@ public class Main {
         while(k<numer){
             k+=2;
                     System.out.println(k);
+        }*/
+        int nm;
+        System.out.println("Ingrese un numero entre 1 y 5");
+        nm=teclado.nextInt();
+        while(nm<1 || nm>5){System.out.println("Ingrese un numero entre 1 y 5");
+        nm=teclado.nextInt();}
+        switch(nm){
+        case 1:
+        System.out.println("Lunes");
+        break;
+        case 2:
+            System.out.println("Martes");
+            break;
+            case 3:
+                System.out.println("Miercoles");
+                break;
+                case 4:
+                    System.out.println("Jueves");
+                    break;
+                    case 5:
+                        System.out.println("Viernes");
+                        break;
         }
     }
     }
